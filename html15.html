@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Classic Student Group</title>
+	<meta charset="utf-8" name="DSP" content="width=device-width,initial-scal=1.0" >
+	<style type="text/css">
+	 h1{
+	 	text-align: center;
+	 }
+	 p{
+	 	text-align: justify;
+	 }
+	 *{
+	 	margin-left: 10px;
+	 	margin-right: 10px;	
+	 }
+	</style>
+</head>
+<body>
+	<h1 style="font-size: 4vw;"> DSP notes </h1>
+	<p style="font-size: 3vw">
+		DFT ဆိုတာ DSP မှာ အသုံအများဆုံးနဲ့ powerful အဖြစ်ဆုံး နည်းလမ်းတွေထဲက တစ်ခု
+Continuous signal နဲ့  လုပ်မရတာတွေကိုပါလုပ်ရ။
+DFT ဆိုတာ discrete signal sequence ရဲ့ harmonic /frequency content ကိုဆုံးဖြတ်ဖို့ သုံးတဲ့ maths procedure
+DFT က Fourier Transform ကလာ
+	
+ 
+အပေါ်က  eq ကို continuous time domain ကနေ continuous frequency domain ပြောင်တဲ့နေရာမှာ သုံး။
+digital computer တွေနဲ့အတူ DFT ကိုcomputer ပေါ်မှာ အသုံံးချနိုင်အောင်လို့ လုပ်ဆောင်ခဲ့ကြ။
+Discrete Frequency Domain sequence
+
+	</p>
+	<center><img src="dsp.png" width="30%"></center>
+	<center>Fig(1)Signal အမျိုးမျိုး</center>
+	<p style="font-size: 3vw">
+		DFT example(1)
+	ဒီတစ်ခါကတော့ continuous time input ကို sample လုပ်၊ 8-point DFT ကိုအသုံးချကြည့်မယ်။ ဒီ input signal မှာတော့ 1 kHz,2 kHz component တွေပါ၀င်နေပါတယ်။
+ 
+xin(t) ကိုပိုစိတ်၀င်စားစရာကောင်းအောင်လို့
+2 kHz term  ကို 1kHz ကနေ phase  135°  ( 3π/4 radians)  
+shift လုပ်လိုက်တယ်။
+sample rate fs နဲ့ဆိုရင် 1/fs = ts  second တိုင်းမှာ input ကို sample လုပ်မှာဖြစ်ပါတယ်။ N = 8 ကိုရွေးထားတဲ့အတွက် DFT လုပ်ပေးဖို့ 8 input sample လိုအပ်ပါတယ်။
+8 element sequence x(n) က time ထဲက nts ထဲမှာ sample လုပ်ထားတဲ့ xin(t) နဲ့တူတယ်။ 
+ 
+
+	</p>
+
+</body>
+</html>
